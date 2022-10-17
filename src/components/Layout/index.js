@@ -1,11 +1,10 @@
 import NavBar from '../NavBar'
 import './index.scss'
 
-const Layout = () => {
+function Layout (){
+
     return (
-        <>
-            <NavBar/>
-        </>
+        <NavBar/>
     )
 }
 
